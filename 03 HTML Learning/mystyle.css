@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(images/Noise\ &\ Texture.png);
+
+  }
+
+.navigation-position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(15px);
+      width: 400px;
+      border-radius: 30px;
+      position: fixed;
+      bottom: 10px;
+      padding: 20px;
+      z-index: 1;
+    }
+
+    .nav_bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      li {
+        display: inline;
+        text-align: center;
+      }
+
+      .nav_bar a {
+            display: inline;
+            text-decoration: none;
+            font-size: 18px;
+            font-family: roboto;
+            color: #e1e1e1;
+          }
+
+      .navbar a:hover {
+            font-weight: 600;
+          }
+  
+.logo {
+    margin: 30px;
+    color: #e1e1e1;
+    position: fixed;
+    mix-blend-mode: difference;
+  }
+
+
+
+.landing_tx {
+
+  color: #FFFDF5;
+  position: absolute;
+  font-family: 'Bakbak One';
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 0.9;
+  margin-left: 550px;
+  margin-top: 253px;
+}
+
+.cover_wrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-left: -200px;
+  margin-top: 100px;
+  max-height: 700px;
+}
+
+/*______Cards______*/
+
+.cards_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  flex: 1 100%;
+}
+
+.artwork {
+  min-width: 350px;
+  min-height: 450px;
+  border: solid 30px #FFFDF5;
+  margin: 0px 20px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+#juice {
+  background-image: url(images/Juice.png);
+}
+
+#GreaterGood {
+  background-image: url(images/GreaterGood.png);
+}
+
+#Nachiketa {
+  background-image: url(images/Nachiketa.png);
+}
+
+/*______about______*/
+
+.about_home_txt {
+  color: #8E9E8B;
+  font-family: 'Bakbak One';
+  text-wrap: wrap;
+  font-size: 26px;
+}
+
+.about_home {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 40px;
+  height: 600px;
+  width: 90%;
+  align-items: center;
+}
+
+.about_face {
+  width: 500px
+}
